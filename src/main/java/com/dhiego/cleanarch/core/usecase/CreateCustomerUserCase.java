@@ -2,7 +2,7 @@ package com.dhiego.cleanarch.core.usecase;
 
 import com.dhiego.cleanarch.core.domain.Customer;
 
-public interface InsertCustomerUserCase {
+public interface CreateCustomerUserCase {
 
-    void insert(Customer customer, String zipCode);
+    void create(Customer customer, String zipCode);
 }

@@ -2,7 +2,7 @@ package com.dhiego.cleanarch.core.dataprovider;
 
 import com.dhiego.cleanarch.core.domain.Customer;
 
-public interface InsertCustomer {
+public interface CreateCustomer {
 
-    void insert(Customer customer);
+    void create(Customer customer);
 }
